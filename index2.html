@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>buscador de productos</title>
+	<link rel="stylesheet" type="text/css" href="estilos2.css">
+</head>
+<body>
+	<header>
+    <div class="logo">
+      <img src="quetzal.png" alt="Logo">
+      <div class="title">Sabores de mi <br> tierra</div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="inicio.html">inicio</a></li>
+        <li><a class="active" href="index2.html">Menú</a></li>
+        <li><a href="acercade.html">Acerca de</a></li>
+        <li><a href="redessociales.html#">Redes Sociales</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+      </ul>
+    </nav>
+    </div>
+	<div class="search-container">
+      <input type="text" id=searchInput placeholder="Búsqueda">
+      <button onclick="filterProducts()">buscar</button>
+    </div>
+    </header>
+	<ul id="product-list">
+		<li data-category="desayunos">
+			<h3>Chuchitos</h3>
+			<p>Elaborados de maiz natural, salsa criolla, pollo o cerdo, envueltos en una tusa de maiz,cocidos con leña.</p>
+			<img src="https://pastelerialostulipanes.com/wp-content/uploads/2022/03/Chuchitos.jpg" width="350" height="225">
+		</li>
+		<li data-category="desayunos">
+			<h3>Huevos Fritos</h3>
+			<p>Un plato cocinado a partir de uno o más huevos, pelados, colocados en una sartén y cocinados.</p>
+			<img src="https://estaticos-cdn.prensaiberica.es/clip/e6d3f955-ad30-4506-a6a2-1e5b80a1154d_source-aspect-ratio_default_0.jpg" width="350" height="225">
+		</li>
+		<li data-category="bebidas">
+			<h3>Té</h3>
+			<p>Bebida aromática hecha por infusión de las hojas secas y brotes de la planta Camellia sinensis en agua caliente.</p>
+			<img src="https://www.alveus.eu/wp-content/smush-webp/020-a.jpg.webp" width="350" height="225">
+		</li>
+		<li data-category="bebidas">
+			<h3>Jamaica</h3>
+			<p>Elaborada a partir de la infusión de los cálices secos de la flor de Jamaica, también conocida como hibisco.</p>
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8JrwPjS9pf9hInQPLvC6zfFLH_ST68QK05A&s" width="350" height="225">
+		</li>
+		<li data-category="almuerzos">
+			<h3>Pepián de Pollo</h3>
+			<p>Un guiso espeso y sabroso hecho con pollo y una mezcla de especias tostadas como ajonjolí, pepitoria y chiles secos.</p>
+			<img src="https://i.ytimg.com/vi/U2GeSUeUlEY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBca6ASCOlXDuQDgZwnLVwfySQMgQ" width="350" height="225">
+		</li>
+		<li data-category="almuerzos">
+			<h3>Jocón</h3>
+			<p>Platillo de pollo bañado en una salsa verde elaborada con miltomate, cilantro y chile pimiento.</p>
+			<img src="https://www.recetasnestlecam.com/sites/default/files/srh_recipes/f1f397e2a88a5754954d5749542c2361.jpg" width="350" height="225">
+		</li>
+		<li data-category="cenas">
+			<h3>Molletes Salados</h3>
+			<p>Pan dulce sin relleno, partido a la mitad y relleno de queso o frijoles. Luego se pasa por huevo batido y se fríe.</p>
+			<img src="https://www.vvsupremo.com/wp-content/uploads/2017/02/Chorizo-Mollete_900x570.jpg" width="350" height="225">
+		</li>
+		<li data-category="cenas">
+			<h3>Tamales</h3>
+			<p>Hechos de masa de maíz rellenos de carne y salsa, envueltos en hojas de plátano.</p>
+			<img src="https://radiotgw.gob.gt/wp-content/uploads/2022/12/Receta-para-los-tradicionales-tamales-de-gallina-Foto-Baqu.jpg" width="350" height="225">
+		</li>
+	</ul>
+	
+<script src="funcion3.js"></script>
+</body>
+</html>
